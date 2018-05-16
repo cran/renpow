@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom("graphics", "abline", "arrows", "axis", "barplot",
+           "contour", "grid", "hist", "layout", "legend", "lines",
+           "matplot", "mtext", "par", "plot", "points", "polygon",
+           "text", "title")
+importFrom("stats", "dnorm", "dweibull", "ecdf", "lm", "plot.ts",
+           "pweibull", "rnorm", "ts")
+importFrom("utils", "head", "read.csv", "read.table", "tail",
+           "write.table")
+
